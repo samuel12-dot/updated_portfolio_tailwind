@@ -12,7 +12,7 @@ window.addEventListener("scroll", () => {
     if (scrollY > 50) {
         navBar.classList.add("bg-white", "opacity-50", "backdrop-blur-lg", "shadow-sm")
         navLinks.classList.remove("bg-white", "opacity-50", "shadow-sm")
-    }else {
+    } else {
         navBar.classList.remove("bg-white", "opacity-50", "backdrop-blur-lg", "shadow-sm")
         navLinks.classList.add("bg-white", "opacity-50", "shadow-sm")
     }
